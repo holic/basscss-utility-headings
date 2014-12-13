@@ -3,12 +3,12 @@
 .h00 { font-size: var(--h00) }
 .h0 {  font-size: var(--h0) }
 
-@media (--breakpoint-sm) {
+@media (--breakpoint-md) {
   .h00-responsive { font-size: var(--h00-responsive) }
   .h0-responsive {  font-size: var(--h0-responsive) }
 }
 
-@custom-media --breakpoint-sm (min-width: 40em);
+@custom-media --breakpoint-md (min-width: 52em);
 
 :root {
   --h00:    4rem;
