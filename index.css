@@ -4,33 +4,16 @@
 .h0 {  font-size: var(--h0) }
 
 @media (--breakpoint-sm) {
-  .sm-h00 { font-size: var(--sm-h00) }
-  .sm-h0 {  font-size: var(--sm-h0) }
-}
-
-@media (--breakpoint-md) {
-  .md-h00 { font-size: var(--md-h00) }
-  .md-h0 {  font-size: var(--md-h0) }
-}
-
-@media (--breakpoint-lg) {
-  .lg-h00 { font-size: var(--lg-h00) }
-  .lg-h0 {  font-size: var(--lg-h0) }
+  .h00-responsive { font-size: var(--h00-responsive) }
+  .h0-responsive {  font-size: var(--h0-responsive) }
 }
 
 @custom-media --breakpoint-sm (min-width: 40em);
-@custom-media --breakpoint-md (min-width: 52em);
-@custom-media --breakpoint-lg (min-width: 64em);
 
 :root {
   --h00:    4rem;
   --h0:     3rem;
-  --sm-h00: 8vw;
-  --sm-h0:  6vw;
-
-  --md-h00: var(--sm-h00);
-  --md-h0:  var(--sm-h0);
-  --lg-h00: var(--sm-h00);
-  --lg-h0:  var(--sm-h0);
+  --h00-responsive: 8vw;
+  --h0-responsive:  6vw;
 }
 
