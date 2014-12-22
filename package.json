@@ -1,7 +1,7 @@
 {
   "name": "basscss-utility-headings",
   "version": "0.0.3",
-  "description": "Responsive heading utilities module for BASSCSS",
+  "description": "Responsive heading utilities module for Basscss",
   "repository": {
     "type": "git",
     "url": "https://github.com/jxnblk/basscss-utility-headings.git"
@@ -9,9 +9,13 @@
   "keywords": [
     "CSS",
     "OOCSS",
-    "BASSCSS",
+    "Basscss",
     "Rework"
   ],
   "author": "Brent Jackson",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxnblk/basscss-utility-headings/issues"
+  },
+  "homepage": "https://github.com/jxnblk/basscss-utility-headings"
 }

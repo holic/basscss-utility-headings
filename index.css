@@ -6,6 +6,7 @@
 @media (--breakpoint-md) {
   .h00-responsive { font-size: var(--h00-responsive) }
   .h0-responsive {  font-size: var(--h0-responsive) }
+  .h1-responsive {  font-size: var(--h1-responsive) }
 }
 
 @custom-media --breakpoint-md (min-width: 52em);
@@ -15,5 +16,6 @@
   --h0:     3rem;
   --h00-responsive: 8vw;
   --h0-responsive:  6vw;
+  --h1-responsive:  4vw;
 }
 
