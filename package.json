@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/jxnblk/basscss-utility-headings/issues"
   },
-  "homepage": "https://github.com/jxnblk/basscss-utility-headings"
+  "homepage": "https://github.com/jxnblk/basscss-utility-headings",
+  "basscss": {
+    "category": "utility",
+    "optional": true
+  }
 }
